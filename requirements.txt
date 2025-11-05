@@ -1,0 +1,27 @@
+# Core scientific and data libraries
+numpy>=1.24.0
+pandas>=2.1.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# Deep learning (PyTorch)
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Model optimization and export
+onnx>=1.15.0
+onnxruntime>=1.17.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# SUMO integration (Digital Twin simulation)
+traci==1.14.0        # matches SUMO 1.14 release
+sumolib==1.14.0
+
+# Utility tools
+tqdm>=4.66.0
+pyyaml>=6.0.1
+psutil>=5.9.0
